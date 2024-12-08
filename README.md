@@ -6,9 +6,11 @@ This code has been adapted from the react-resume-template project: [https://gith
 
 Technologies used:
 * React
-*
 * Tailwind CSS
-
+* Typescript
+* Node.js
+* Yarn
+* EmailJS integration
 
 ## Prerequisites
 
