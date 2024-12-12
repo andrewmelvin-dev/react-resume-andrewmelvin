@@ -8,7 +8,11 @@ import {
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import heroImage from '../images/header-background.webp';
-import lifecheckPortfolioImage from '../images/portfolio/lifecheck-settings-1.png';
+import foxtelPortfolioImage1 from '../images/portfolio/foxtel-1.png';
+import foxtelPortfolioImage2 from '../images/portfolio/foxtel-2.png';
+import foxtelPortfolioImage3 from '../images/portfolio/foxtel-3.png';
+import lifecheckPortfolioImage1 from '../images/portfolio/lifecheck-settings-1.png';
+import lifecheckPortfolioImage2 from '../images/portfolio/lifecheck-settings-2.png';
 import monsterlandmekaPortfolioImage1 from '../images/portfolio/monsterlandmeka-1.png';
 import monsterlandmekaPortfolioImage2 from '../images/portfolio/monsterlandmeka-2.png';
 import monsterlandmekaPortfolioImage3 from '../images/portfolio/monsterlandmeka-3.png';
@@ -125,9 +129,6 @@ export const skills: SkillGroup[] = [
         name: 'AWS'
       },
       {
-        name: 'C#'
-      },
-      {
         name: 'Python'
       },
       {
@@ -162,6 +163,26 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
+    name: 'Other',
+    skills: [
+      {
+        name: 'C#'
+      },
+      {
+        name: '.NET'
+      },
+      {
+        name: 'Embedded Systems'
+      },
+      {
+        name: 'Visual Studio'
+      },
+      {
+        name: 'WebStorm'
+      },
+    ],
+  },
+  {
     name: 'Databases',
     skills: [
       {
@@ -176,24 +197,10 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'IDEs',
+    name: 'Personal',
     skills: [
-      {
-        name: 'Visual Studio'
-      },
-      {
-        name: 'WebStorm'
-      },
       {
         name: 'Unity'
-      },
-    ],
-  },
-  {
-    name: 'Other',
-    skills: [
-      {
-        name: 'Embedded Systems'
       },
       {
         name: 'GIMP (UI assets)'
@@ -210,10 +217,34 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
+    title: 'Vantiva: Foxtel iQ',
+    description: 'Embedded development on the Foxtel iQ range of set-top boxes.',
+    url: 'https://www.foxtel.com.au/shop/foxtel-iq.html',
+    image: foxtelPortfolioImage1,
+  },
+  {
+    title: 'Vantiva: Foxtel iQ',
+    description: 'The user interface for the Foxtel iQ range of set-top boxes.',
+    url: 'https://www.foxtel.com.au/shop/foxtel-iq.html',
+    image: foxtelPortfolioImage2,
+  },
+  {
+    title: 'Nagra: Foxtel News & Weather Applications',
+    description: 'Applications providing news and weather information.',
+    url: 'https://www.foxtel.com.au/shop/foxtel-iq.html',
+    image: foxtelPortfolioImage3,
+  },
+  {
     title: 'Lifecheck',
     description: 'An application running on AWS that provides friends and family with automated notifications when recent activity has not been detected.',
     url: 'https://github.com/andrewmelvin-dev/lifecheck-aws',
-    image: lifecheckPortfolioImage,
+    image: lifecheckPortfolioImage1,
+  },
+  {
+    title: 'Lifecheck',
+    description: 'An application running on AWS that provides friends and family with automated notifications when recent activity has not been detected.',
+    url: 'https://github.com/andrewmelvin-dev/lifecheck-aws',
+    image: lifecheckPortfolioImage2,
   },
   {
     title: 'Monsterland Meka',
