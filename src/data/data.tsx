@@ -1,6 +1,5 @@
 import {
   AcademicCapIcon,
-  ArrowDownTrayIcon,
   BookOpenIcon,
   FlagIcon,
   MapPinIcon,
@@ -65,12 +64,6 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/Andrew Melvin - Resume - Dec 2024.docx',
-      text: 'Resume',
-      primary: true,
-      Icon: ArrowDownTrayIcon,
-    },
-    {
       href: `#${SectionId.Contact}`,
       text: 'Contact',
       primary: false,
@@ -82,7 +75,7 @@ export const heroData: Hero = {
  * About section
  */
 export const aboutData: About = {
-  description: `I am a seasoned full-stack software engineer with over 20 years of industry experience. My focus is on delivering high-quality solutions right from the start, with a strong expertise in root-cause analysis and creative problem-solving.`,
+  description: `I am a results-driven full-stack software engineer experienced in developing scalable web applications. Adept at mentoring engineers, fostering cross-functional collaboration, and driving projects to successful outcomes. Experienced in agile methodologies, problem-solving, optimizing system scalability, and process improvement, with a strong commitment to continuous learning and innovation.`,
   aboutItems: [
     {label: 'Location', text: 'Sydney, NSW, Australia', Icon: MapPinIcon},
     {label: 'Nationality', text: 'Australian', Icon: FlagIcon},
@@ -112,10 +105,16 @@ export const skills: SkillGroup[] = [
         name: 'HTML5'
       },
       {
-        name: 'CSS3/LESS'
+        name: 'CSS3'
+      },
+      {
+        name: 'LESS'
       },
       {
         name: 'jQuery'
+      },
+      {
+        name: 'Bootstrap'
       },
     ],
   },
@@ -126,16 +125,54 @@ export const skills: SkillGroup[] = [
         name: 'Node.js'
       },
       {
-        name: 'AWS'
-      },
-      {
         name: 'Python'
       },
       {
         name: 'PHP'
       },
       {
-        name: 'RESTful APIs'
+        name: 'REST / WebSocket'
+      },
+      {
+        name: 'OAuth / JWT'
+      },
+      {
+        name: 'Express.js'
+      },
+      {
+        name: 'Apache'
+      },
+      {
+        name: 'ASP.NET'
+      },
+    ],
+  },
+  {
+    name: 'AWS',
+    skills: [
+      {
+        name: 'Lambda'
+      },
+      {
+        name: 'API Gateways'
+      },
+      {
+        name: 'CloudFormation'
+      },
+      {
+        name: 'SAM'
+      },
+      {
+        name: 'EventBridge'
+      },
+      {
+        name: 'CloudFront'
+      },
+      {
+        name: 'EC2'
+      },
+      {
+        name: 'S3'
       },
     ],
   },
@@ -143,13 +180,19 @@ export const skills: SkillGroup[] = [
     name: 'CI/CD Pipelines',
     skills: [
       {
-        name: 'Git'
-      },
-      {
         name: 'Jenkins'
       },
       {
         name: 'Grunt'
+      },
+      {
+        name: 'Babel'
+      },
+      {
+        name: 'Webpack'
+      },
+      {
+        name: 'Git'
       },
       {
         name: 'Groovy'
@@ -166,19 +209,22 @@ export const skills: SkillGroup[] = [
     name: 'Other',
     skills: [
       {
-        name: 'C#'
+        name: 'C# / .NET'
       },
       {
-        name: '.NET'
+        name: 'Shell Scripting'
       },
       {
         name: 'Embedded Systems'
       },
       {
-        name: 'Visual Studio'
+        name: 'Visual Studio IDE'
       },
       {
-        name: 'WebStorm'
+        name: 'WebStorm IDE'
+      },
+      {
+        name: 'Unity IDE'
       },
     ],
   },
@@ -192,21 +238,10 @@ export const skills: SkillGroup[] = [
         name: 'MySQL'
       },
       {
-        name: 'Dynamo DB'
-      },
-    ],
-  },
-  {
-    name: 'Personal',
-    skills: [
-      {
-        name: 'Unity'
+        name: 'DynamoDB'
       },
       {
-        name: 'GIMP (UI assets)'
-      },
-      {
-        name: 'Cubase (music)'
+        name: 'MongoDB'
       },
     ],
   },
@@ -236,13 +271,13 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Lifecheck',
-    description: 'An application running on AWS that provides friends and family with automated notifications when recent activity has not been detected.',
+    description: 'An application running on AWS that provides friends and family with automated notifications when recent activity has not been detected. Utilises Lambda, API Gateways, CloudFormation, SAM, Python, EventBridge, OAuth.',
     url: 'https://github.com/andrewmelvin-dev/lifecheck-aws',
     image: lifecheckPortfolioImage1,
   },
   {
     title: 'Lifecheck',
-    description: 'An application running on AWS that provides friends and family with automated notifications when recent activity has not been detected.',
+    description: 'An application running on AWS that provides friends and family with automated notifications when recent activity has not been detected. Utilises Lambda, API Gateways, CloudFormation, SAM, Python, EventBridge, OAuth.',
     url: 'https://github.com/andrewmelvin-dev/lifecheck-aws',
     image: lifecheckPortfolioImage2,
   },
